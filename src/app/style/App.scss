@@ -1,0 +1,9 @@
+@use "../../shared/style/colors" as c;
+@use "../../shared/style/spacings" as s;
+@import "../../shared/style/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
