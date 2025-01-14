@@ -1,0 +1,42 @@
+.PostCard {
+  background: #e8f9ff;
+  padding: 25px 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  min-height: 250px;
+}
+.PostCard:hover {
+  background: #fbfbfb;
+  box-shadow: 0 0 10px #c4d9ff;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c5baff;
+}
+.Title::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Title::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+.Body {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+}
+.Body::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Body::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}/*# sourceMappingURL=PostCard.module.css.map */

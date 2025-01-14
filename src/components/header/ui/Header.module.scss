@@ -1,0 +1,12 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+@import "../../../shared/style/mixins";
+
+.Header {
+  background: c.$purple;
+  padding: s.$medium s.$ultra-large;
+}
+
+.Title {
+  @include Text_White(36px, 700);
+}
