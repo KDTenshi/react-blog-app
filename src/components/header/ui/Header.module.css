@@ -1,0 +1,18 @@
+.Header {
+  background: #c5baff;
+  padding: 25px 125px;
+}
+
+.Title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fbfbfb;
+}
+.Title::-moz-selection {
+  color: #c5baff;
+  background: #fbfbfb;
+}
+.Title::selection {
+  color: #c5baff;
+  background: #fbfbfb;
+}/*# sourceMappingURL=Header.module.css.map */

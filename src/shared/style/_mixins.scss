@@ -1,2 +1,32 @@
 @use "./colors" as c;
 @use "./spacings" as s;
+
+@mixin Text_Base_Mixin($color: c.$black, $selectColor: c.$white, $selectBackground: c.$black) {
+  color: $color;
+
+  &::selection {
+    color: $selectColor;
+    background: $selectBackground;
+  }
+}
+
+@mixin Text_White($fontSize: 16px, $fontWeight: 400) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+
+  @include Text_Base_Mixin(c.$white, c.$purple, c.$white);
+}
+
+@mixin Text_Purple($fontSize: 16px, $fontWeight: 400) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+
+  @include Text_Base_Mixin(c.$purple, c.$white, c.$purple);
+}
+
+@mixin Text_Black($fontSize: 16px, $fontWeight: 400) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+
+  @include Text_Base_Mixin(c.$black, c.$white, c.$black);
+}
