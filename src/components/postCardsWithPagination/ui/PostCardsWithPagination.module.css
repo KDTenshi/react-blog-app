@@ -1,0 +1,6 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 75px;
+}/*# sourceMappingURL=PostCardsWithPagination.module.css.map */

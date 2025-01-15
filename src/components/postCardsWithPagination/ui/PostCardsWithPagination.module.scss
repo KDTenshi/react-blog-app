@@ -3,7 +3,8 @@
 @import "../../../shared/style/mixins";
 
 .List {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: s.$mid-small;
+  padding: s.$mid-small s.$extra-large;
 }

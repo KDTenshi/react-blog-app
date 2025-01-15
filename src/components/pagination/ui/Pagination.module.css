@@ -1,0 +1,87 @@
+.Pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Arrow {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+  background: #e8f9ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.Arrow::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Arrow::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Arrow:hover {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c5baff;
+  background: #fbfbfb;
+  box-shadow: 0 0 5px #c4d9ff;
+}
+.Arrow:hover::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Arrow:hover::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+.Page {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+  background: #e8f9ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.Page::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Page::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Page_Active {
+  font-size: 20px;
+  font-weight: 700;
+  color: #c5baff;
+  background: #fbfbfb;
+  box-shadow: 0 0 5px #c4d9ff;
+}
+.Page_Active::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Page_Active::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Page:hover {
+  background: #fbfbfb;
+  box-shadow: 0 0 5px #c4d9ff;
+}/*# sourceMappingURL=Pagination.module.css.map */
