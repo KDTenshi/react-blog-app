@@ -1,0 +1,35 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+@import "../../../shared/style/mixins";
+
+.Preloader {
+  padding: s.$extra-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: s.$medium;
+}
+
+.Spinner {
+  width: 300px;
+  height: 300px;
+  border: 5px dashed c.$purple;
+  border-radius: 100%;
+  animation: Spin 5s infinite linear;
+}
+
+.Title {
+  @include Text_Purple(24px, 700);
+
+  text-transform: uppercase;
+}
+
+@keyframes Spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
