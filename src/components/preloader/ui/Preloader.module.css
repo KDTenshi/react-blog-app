@@ -1,0 +1,39 @@
+.Preloader {
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.Spinner {
+  width: 300px;
+  height: 300px;
+  border: 5px dashed #c5baff;
+  border-radius: 100%;
+  animation: Spin 5s infinite linear;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c5baff;
+  text-transform: uppercase;
+}
+.Title::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Title::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+@keyframes Spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Preloader.module.css.map */
