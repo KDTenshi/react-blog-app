@@ -1,12 +1,20 @@
 import { FC } from "react";
-import { useGetAllPostsQuery } from "../../../shared/api/postsApi";
 import style from "./PostCardsList.module.css";
 import PostCard from "../../postCard/ui/PostCard";
+import { TPostItem } from "../../../shared/types/types";
 
-const PostCardsList: FC = () => {
-  const { data: posts } = useGetAllPostsQuery();
+interface PostCardsListProps {
+  posts: TPostItem[];
+}
 
-  return <div className={style.List}>{posts && posts.map((post) => <PostCard post={post} key={post.id} />)}</div>;
+const PostCardsList: FC<PostCardsListProps> = ({ posts }) => {
+  return (
+    <div className={style.List}>
+      {posts.map((post) => (
+        <PostCard post={post} key={post.id} />
+      ))}
+    </div>
+  );
 };
 
 export default PostCardsList;

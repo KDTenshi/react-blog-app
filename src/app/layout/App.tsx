@@ -1,13 +1,13 @@
 import { FC } from "react";
 import "../style/App.css";
 import { Header } from "../../components/header";
-import { PostCardsList } from "../../components/postCardsList";
+import { PostCardsWithPagination } from "../../components/postCardsWithPagination";
 
 const App: FC = () => {
   return (
     <>
       <Header />
-      <PostCardsList />
+      <PostCardsWithPagination />
     </>
   );
 };
