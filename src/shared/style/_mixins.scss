@@ -30,3 +30,10 @@
 
   @include Text_Base_Mixin(c.$black, c.$white, c.$black);
 }
+
+@mixin Text_Blue($fontSize: 16px, $fontWeight: 400) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+
+  @include Text_Base_Mixin(c.$blue, c.$white, c.$blue);
+}

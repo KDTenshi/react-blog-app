@@ -1,0 +1,79 @@
+.PostBlock {
+  width: 80vw;
+  margin: 20px auto;
+  background: #e8f9ff;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.Author {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+}
+.Author::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Author::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+
+.Username {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c5baff;
+}
+.Username::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Username::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+.Text {
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c5baff;
+}
+.Title::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Title::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Title::first-letter {
+  text-transform: uppercase;
+}
+
+.Body {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+}
+.Body::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Body::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Body::first-letter {
+  text-transform: uppercase;
+}/*# sourceMappingURL=PostBlock.module.css.map */

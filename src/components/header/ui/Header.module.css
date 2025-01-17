@@ -1,6 +1,11 @@
 .Header {
   background: #c5baff;
   padding: 25px 125px;
+  display: flex;
+}
+
+.Link {
+  text-decoration: none !important;
 }
 
 .Title {
