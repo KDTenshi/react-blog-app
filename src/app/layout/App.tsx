@@ -1,13 +1,13 @@
 import { FC } from "react";
 import "../style/App.css";
 import { Header } from "../../components/header";
-import { PostCardsWithPagination } from "../../components/postCardsWithPagination";
+import AppRouter from "../router/AppRouter";
 
 const App: FC = () => {
   return (
     <>
       <Header />
-      <PostCardsWithPagination />
+      <AppRouter />
     </>
   );
 };
