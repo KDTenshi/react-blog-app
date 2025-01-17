@@ -2,6 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { TPostItem } from "../types/types";
 
 export const postsApi = createApi({
+  reducerPath: "postsAPi",
   baseQuery: fetchBaseQuery({ baseUrl: "https://jsonplaceholder.typicode.com/posts" }),
   endpoints: (builder) => ({
     getAllPosts: builder.query<TPostItem[], number>({
