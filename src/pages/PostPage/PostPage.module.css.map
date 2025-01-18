@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"PostPage.module.css"}
+{"version":3,"sources":["PostPage.module.scss","../../shared/style/_spacings.scss","PostPage.module.css"],"names":[],"mappings":"AAIA;EACE,kBAAA;EACA,aAAA;EACA,sBAAA;EACA,SCLU;ACEZ","file":"PostPage.module.css"}

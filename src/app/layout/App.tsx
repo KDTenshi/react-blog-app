@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "../style/App.css";
-import { Header } from "../../components/header";
 import AppRouter from "../router/AppRouter";
+import { Header } from "../../shared/components/header";
 
 const App: FC = () => {
   return (

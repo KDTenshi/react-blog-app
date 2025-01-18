@@ -1,1 +1,6 @@
-/*# sourceMappingURL=PostPage.module.css.map */
+.Post {
+  padding: 20px 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}/*# sourceMappingURL=PostPage.module.css.map */

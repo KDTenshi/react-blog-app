@@ -1,0 +1,30 @@
+@use "../../shared/style/colors" as c;
+@use "../../shared/style/spacings" as s;
+@import "../../shared/style/mixins";
+
+.NotFound {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: s.$small;
+  padding: s.$ultra-large;
+}
+
+.Title {
+  @include Text_Purple(36px, 700);
+
+  text-align: center;
+}
+
+.Text {
+  @include Text_Black(20px, 400);
+
+  text-align: center;
+}
+
+.Link {
+  @include Text_Purple(20px, 400);
+
+  text-decoration: none;
+}
