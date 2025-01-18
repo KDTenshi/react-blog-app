@@ -1,0 +1,53 @@
+.NotFound {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 125px;
+}
+
+.Title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #c5baff;
+  text-align: center;
+}
+.Title::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Title::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+.Text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+  text-align: center;
+}
+.Text::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Text::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+
+.Link {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c5baff;
+  text-decoration: none;
+}
+.Link::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Link::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}/*# sourceMappingURL=NotFoundPage.module.css.map */

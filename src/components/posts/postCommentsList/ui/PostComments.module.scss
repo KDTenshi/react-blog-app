@@ -1,0 +1,39 @@
+@use "../../../../shared/style/colors" as c;
+@use "../../../../shared/style/spacings" as s;
+@import "../../../../shared/style/mixins";
+
+.Comments {
+  display: flex;
+  flex-direction: column;
+  gap: s.$mid-small;
+}
+
+.Title {
+  @include Text_Blue(24px, 700);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: s.$small;
+  padding: 0 s.$large;
+}
+
+.Comment {
+  background: c.$blue-light;
+  border-radius: s.$extra-small;
+  padding: s.$small s.$mid-small;
+  display: flex;
+  flex-direction: column;
+  gap: s.$small;
+}
+
+.Username {
+  @include Text_Purple(20px, 400);
+}
+
+.Body {
+  @include Text_Black(20px, 400);
+
+  padding: 0 s.$extra-small;
+}

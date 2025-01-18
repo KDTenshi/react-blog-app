@@ -1,0 +1,64 @@
+.Comments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c4d9ff;
+}
+.Title::-moz-selection {
+  color: #fbfbfb;
+  background: #c4d9ff;
+}
+.Title::selection {
+  color: #fbfbfb;
+  background: #c4d9ff;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 50px;
+}
+
+.Comment {
+  background: #e8f9ff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Username {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c5baff;
+}
+.Username::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Username::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+.Body {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+  padding: 0 10px;
+}
+.Body::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Body::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}/*# sourceMappingURL=PostComments.module.css.map */
