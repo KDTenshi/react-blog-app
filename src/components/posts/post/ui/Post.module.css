@@ -25,6 +25,7 @@
   font-size: 20px;
   font-weight: 400;
   color: #c5baff;
+  text-decoration: none;
 }
 .Username::-moz-selection {
   color: #fbfbfb;

@@ -1,0 +1,13 @@
+@use "../../../../shared/style/colors" as c;
+@use "../../../../shared/style/spacings" as s;
+@import "../../../../shared/style/mixins";
+
+.UserPosts {
+  display: flex;
+  flex-direction: column;
+  gap: s.$mid-small;
+}
+
+.Title {
+  @include Text_Blue(24px, 700);
+}

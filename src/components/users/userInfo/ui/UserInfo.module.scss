@@ -1,0 +1,45 @@
+@use "../../../../shared/style/colors" as c;
+@use "../../../../shared/style/spacings" as s;
+@import "../../../../shared/style/mixins";
+
+.UserInfo {
+  width: 100%;
+  background: c.$blue-light;
+  border-radius: s.$small;
+  padding: s.$mid-small s.$medium;
+  display: flex;
+  flex-direction: column;
+  gap: s.$mid-small;
+}
+
+.Title {
+  @include Text_Purple(30px, 700);
+}
+
+.Container {
+  display: flex;
+  gap: s.$mid-small;
+}
+
+.Image {
+  width: 300px;
+  height: 300px;
+  background: c.$white;
+  border-radius: s.$extra-small;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: s.$extra-small;
+}
+
+.Text {
+  @include Text_Black(20px, 400);
+}
+
+.Link {
+  @include Text_Purple(20px, 400);
+
+  text-decoration: none;
+}

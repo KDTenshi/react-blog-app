@@ -1,0 +1,70 @@
+.UserInfo {
+  width: 100%;
+  background: #e8f9ff;
+  border-radius: 15px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #c5baff;
+}
+.Title::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Title::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+
+.Container {
+  display: flex;
+  gap: 20px;
+}
+
+.Image {
+  width: 300px;
+  height: 300px;
+  background: #fbfbfb;
+  border-radius: 10px;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #41444b;
+}
+.Text::-moz-selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+.Text::selection {
+  color: #fbfbfb;
+  background: #41444b;
+}
+
+.Link {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c5baff;
+  text-decoration: none;
+}
+.Link::-moz-selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}
+.Link::selection {
+  color: #fbfbfb;
+  background: #c5baff;
+}/*# sourceMappingURL=UserInfo.module.css.map */

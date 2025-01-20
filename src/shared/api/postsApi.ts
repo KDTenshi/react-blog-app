@@ -17,7 +17,15 @@ export const postsApi = createApi({
     getPostById: builder.query<TPostItem, number>({
       query: (id) => `/${id}`,
     }),
+    getPostsByUserId: builder.query<TPostItem[], number>({
+      query: (userId) => ({
+        url: "/",
+        params: {
+          userId,
+        },
+      }),
+    }),
   }),
 });
 
-export const { useGetAllPostsQuery, useGetPostByIdQuery } = postsApi;
+export const { useGetAllPostsQuery, useGetPostByIdQuery, useGetPostsByUserIdQuery } = postsApi;

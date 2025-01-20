@@ -1,0 +1,10 @@
+@use "../../shared/style/colors" as c;
+@use "../../shared/style/spacings" as s;
+@import "../../shared/style/mixins";
+
+.User {
+  padding: s.$mid-small s.$ultra-large;
+  display: flex;
+  flex-direction: column;
+  gap: s.$mid-small;
+}
