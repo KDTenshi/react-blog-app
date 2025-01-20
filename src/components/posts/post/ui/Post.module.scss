@@ -17,6 +17,8 @@
 
 .Username {
   @include Text_Purple(20px, 400);
+
+  text-decoration: none;
 }
 
 .Text {

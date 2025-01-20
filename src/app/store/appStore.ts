@@ -3,7 +3,7 @@ import { appReducer } from "./appReducer";
 import { useDispatch, useSelector } from "react-redux";
 import { postsApi } from "../../shared/api/postsApi";
 import { commentsApi } from "../../shared/api/commentsApi";
-import { usersApi } from "./usersApi";
+import { usersApi } from "../../shared/api/usersApi";
 
 export const appStore = configureStore({
   reducer: appReducer,
